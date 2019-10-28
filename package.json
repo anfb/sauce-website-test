@@ -1,0 +1,28 @@
+{
+  "name": "sauce-website-test",
+  "version": "1.0.0",
+  "description": "Projeto criado para aprender um pouco sobre a ferramenta NightWatch.js",
+  "main": "index.js",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\nightwatch.cmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anfb/sauce-website-test.git"
+  },
+  "keywords": [
+    "testes",
+    "node.js",
+    "nightwatch.js"
+  ],
+  "author": "Adriely Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anfb/sauce-website-test/issues"
+  },
+  "homepage": "https://github.com/anfb/sauce-website-test#readme",
+  "devDependencies": {
+    "chromedriver": "^77.0.0",
+    "nightwatch": "^1.2.4"
+  }
+}
